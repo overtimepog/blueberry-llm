@@ -26,6 +26,12 @@ Fork this repository, create a new experiment in `experiments/` folder, then cre
 
 *Your experiments will be added here*
 
+### [Exp7: Hybrid DeltaNet Architecture Ablation](experiments/exp7_hybrid_deltanet_ablation/)
+- Comprehensive ablation of 13 architectures (0-100% attention) finding that Hybrid Sparse 17% (2 attention layers at positions 5, 11) performs 27% better than pure Transformer and 8% better than pure DeltaNet.
+
+### [Exp6: Gated DeltaNet Training](experiments/exp6_gated_deltanet_training/)
+- Learning rate ablation study for Gated DeltaNet architecture, finding 1e-3 optimal for 188M parameter model. Also possible to train coherent LLM in 30-60 min on H100.
+
 ### [Exp5: Batch Size vs Sequence Length](experiments/exp5_batch_vs_seqlen_ablation/)
 - **Researcher**: Vuk Rosić ([YouTube](https://www.youtube.com/channel/UC7XJj9pv_11a11FUxCMz15g), [GitHub](https://github.com/vukrosic))
 - **Research Question**: Should you use big batches with short sequences, or small batches with long sequences?
