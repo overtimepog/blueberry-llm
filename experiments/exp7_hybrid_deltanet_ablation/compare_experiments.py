@@ -16,7 +16,7 @@ matplotlib.use('Agg')
 
 
 def load_experiment_results(exp_variant):
-upda    """Load results for a specific H100 experiment variant"""
+    """Load results for a specific H100 experiment variant"""
     exp_dir = Path(__file__).parent
     
     # All H100 variants use results_{variant_name}
